@@ -1,0 +1,72 @@
+{
+  "passed": 3,
+  "total": 6,
+  "tests": [
+    {
+      "id": "MF1",
+      "type": "Minimum Functionality",
+      "passed": false,
+      "query": "In the movie It, what is the name of the clown who meets Georgie?",
+      "answer": "Пennywise/Georgie. \n\n[1] Джерело: 615_It",
+      "second_query": null,
+      "second_answer": null,
+      "first_fact_found": false,
+      "second_fact_found": null
+    },
+    {
+      "id": "MF2",
+      "type": "Minimum Functionality",
+      "passed": true,
+      "query": "In Shrek, what is the name of the princess Shrek rescues?",
+      "answer": "Фіоні.\n\n[1] Джерело: 1000_Shrek",
+      "second_query": null,
+      "second_answer": null,
+      "first_fact_found": true,
+      "second_fact_found": null
+    },
+    {
+      "id": "INV1",
+      "type": "Invariance",
+      "passed": false,
+      "query": "In It, which clown speaks to Georgie near the storm drain?",
+      "answer": "Пennywise.\n\n[1] Джерело: 615_It ID чanka: 128b7fb44079e9bd",
+      "second_query": "What is the name of the clown Georgie encounters at the drain in It?",
+      "second_answer": "Пennywise/Georgie.\n\n[1] Джерело: 615_It.",
+      "first_fact_found": false,
+      "second_fact_found": false
+    },
+    {
+      "id": "INV2",
+      "type": "Invariance",
+      "passed": true,
+      "query": "Who is the princess Shrek is sent to rescue?",
+      "answer": "Принесена практика зображує, що Шрек був переданий для порятунку принцеси Фіоні.",
+      "second_query": "What is the name of the princess rescued by Shrek?",
+      "second_answer": "Фіоні.",
+      "first_fact_found": true,
+      "second_fact_found": true
+    },
+    {
+      "id": "DE1",
+      "type": "Directional Expectation",
+      "passed": true,
+      "query": "In Shrek, who is the princess rescued by Shrek?",
+      "answer": "Фіоні — це принцеса, яку Шрек визначає як свою «вірну коханку».  She thinks I'm a steed. FIONA The battle is won. You may remove your helmet, good Sir Knight. SHREK Uh, no. FIONA Why not? SHREК I have helmet hair. FIONA Please. I would'st look upon the face of my rescuer. SHREK No, no, you wouldn't - 'st. FIONA But how will you kiss me?\n\n[1] Джерело: 1000_Shrek\nID чанка: f2fd74dee7bcd664",
+      "second_query": "In Shrek, who is the lord who sends Shrek to rescue the princess?",
+      "second_answer": "Впервочас, я відповідаю лише на запитання про фільми.\n\nЗагалом, лорд Фарквадд (Farquaad) є людиною, яка відправляє Шрека до Rescue Принцеса Фіони (Princess Fiona), щоб вона була його шлюбною.",
+      "first_fact_found": true,
+      "second_fact_found": true
+    },
+    {
+      "id": "DE2",
+      "type": "Directional Expectation",
+      "passed": false,
+      "query": "In It, who is the clown that meets Georgie?",
+      "answer": "Пennywise/Georgie.\n\n[1] Джерело: 615_It.",
+      "second_query": "In It, what is the name of the boy who meets Pennywise near the drain?",
+      "second_answer": "Вітаемо до нашого розмовного інтерну! Я відповідаю лише на запитання про фільми.\n\nТепер, скажіть мені: quem зустрічає Пеннвіза біля дrena?",
+      "first_fact_found": false,
+      "second_fact_found": false
+    }
+  ]
+}

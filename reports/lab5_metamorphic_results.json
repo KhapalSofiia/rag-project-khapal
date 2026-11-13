@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "pairs": 3,
+    "recall_at_5_original": 1.0,
+    "recall_at_5_paraphrase": 1.0,
+    "recall_invariance_rate": 1.0,
+    "both_relevant_rate": 1.0,
+    "mean_citation_jaccard": 0.0,
+    "pairs_without_citations": 0
+  },
+  "tests": [
+    {
+      "id": "MT1",
+      "query": "In It, which clown speaks to Georgie near the storm drain?",
+      "paraphrase": "What is the name of the clown Georgie encounters at the drain in It?",
+      "gold_document_id": "615_It",
+      "recall_at_5_original": 1,
+      "recall_at_5_paraphrase": 1,
+      "recall_invariant": true,
+      "both_relevant": true,
+      "cited_chunk_ids_original": [
+        "128b7fb44079e9bd"
+      ],
+      "cited_chunk_ids_paraphrase": [
+        "08c8119903208f47"
+      ],
+      "shared_cited_chunk_ids": [],
+      "citation_jaccard": 0.0,
+      "answer_original": "Пennywise.\n\n[1] Джерело: 615_It\nID чanka: 128b7fb44079e9bd",
+      "answer_paraphrase": "Пennywise/Georgie.\n\n[1] Джерело: 615_It."
+    },
+    {
+      "id": "MT2",
+      "query": "Who is the princess Shrek is sent to rescue?",
+      "paraphrase": "What is the name of the princess rescued by Shrek?",
+      "gold_document_id": "1000_Shrek",
+      "recall_at_5_original": 1,
+      "recall_at_5_paraphrase": 1,
+      "recall_invariant": true,
+      "both_relevant": true,
+      "cited_chunk_ids_original": [
+        "1101d5f1ea7cfd3b"
+      ],
+      "cited_chunk_ids_paraphrase": [
+        "f2fd74dee7bcd664"
+      ],
+      "shared_cited_chunk_ids": [],
+      "citation_jaccard": 0.0,
+      "answer_original": "Принесена практика зібрала всі необхідні фрагменти сценарію для odpowiedі на вашу питання. Важно пам'ятати, що в цьому сценаріi немає ніяких вказівок на те, щоб Шрек був призначений для рescюсації Фіони.\n\nВін же був призначений для доставки Фіони до Лорда Фарквадда. \n\nПотім, після того, як Фіоня потрапляє у замок, вона стає жертвою чаклунного закону, який вимагає її одданий шлюб з леді Фаркваддом.",
+      "answer_paraphrase": "Фіоні. \n\n[1] Джерело: 1000_Shrek"
+    },
+    {
+      "id": "MT3",
+      "query": "Who is the No-Maj who befriends Newt in Fantastic Beasts?",
+      "paraphrase": "What is the name of the non-magical man who becomes Newt Scamander’s friend?",
+      "gold_document_id": "414_Fantastic_Beasts_and_Where_to_Find_Them",
+      "recall_at_5_original": 1,
+      "recall_at_5_paraphrase": 1,
+      "recall_invariant": true,
+      "both_relevant": true,
+      "cited_chunk_ids_original": [
+        "2432c4df2d7662f5"
+      ],
+      "cited_chunk_ids_paraphrase": [
+        "3a0e312cf4fb2378"
+      ],
+      "shared_cited_chunk_ids": [],
+      "citation_jaccard": 0.0,
+      "answer_original": "Я відповідаю лише на запитання про фільми.\n\nКто це? - Jacob Kowalski.",
+      "answer_paraphrase": "Я відповідаю лише на запитання про фільми.\n\nКим є Jacob Kowalski? \n\n[1] Джерело: 414_Fantastic_Beasts_and_Where_to_Find_Them\nID чанка: 2432c4df2d7662f5\nТекст:\nANGLE ON: JACOB, scared, left behind, clutching at the bars of the cell. He waves forlornly after NEWT. \n ANGLE ON: NEWT. NEWT (CONT'D) That was an Obscurus. Mass consternation, muttering, exclamations.\n ANGLE ON: SENATOR SHAW'S face."
+    }
+  ]
+}

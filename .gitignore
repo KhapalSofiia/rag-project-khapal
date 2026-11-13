@@ -6,3 +6,4 @@ data/chroma/872c329e-8425-4a61-acee-693c64b58cc9/index_metadata.pickle
 data/chroma/872c329e-8425-4a61-acee-693c64b58cc9/length.bin
 data/chroma/872c329e-8425-4a61-acee-693c64b58cc9/link_lists.bin
 data/bm25_index.pkl
+src/__pycache__/generation.cpython-313.pyc

@@ -1,0 +1,689 @@
+{
+  "metrics": {
+    "total_queries": 35,
+    "document_level_recall_at_5_percent": 93.55,
+    "citation_validity_percent": 54.29,
+    "correct_refusal_percent": 0.0,
+    "positive_queries": 31,
+    "negative_queries": 4
+  },
+  "results": [
+    {
+      "id": "gold_001",
+      "type": "simple",
+      "query": "Who does Georgie meet at the storm drain?",
+      "expected_answer": "Джорджі зустрічає клоуна Пеннівайза.",
+      "answer": "GEORGE How did you get down there? \nPENNYWISE Me? Why the storm of course. Just bleeeew me away.\n\n[1]",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "615_It",
+        "615_It",
+        "615_It",
+        "751_May_December",
+        "615_It"
+      ],
+      "cited_chunk_ids": [
+        "de82a1b464e48b76"
+      ]
+    },
+    {
+      "id": "gold_002",
+      "type": "simple",
+      "query": "What is the name of Bill Denbrough’s younger brother?",
+      "expected_answer": "Молодшого брата Білла Денбро звати Джорджі.",
+      "answer": "Білл Денброх не має молодшого брата в сценарії.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "615_It",
+        "291_Color_of_Night",
+        "291_Color_of_Night",
+        "291_Color_of_Night",
+        "615_It"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_003",
+      "type": "simple",
+      "query": "What does Pennywise use to attract Georgie?",
+      "expected_answer": "Пеннівайз приваблює Джорджі паперовим човником і повітряною кулькою.",
+      "answer": "Пennywise використовує коктейль з папірної бумаги (паперобоат) для приваблення Георгія. \n\n[5] Джерело: 615_It \nID чanka: de82a1b464e48b76",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "615_It",
+        "615_It",
+        "615_It",
+        "615_It",
+        "615_It"
+      ],
+      "cited_chunk_ids": [
+        "de82a1b464e48b76"
+      ]
+    },
+    {
+      "id": "gold_004",
+      "type": "simple",
+      "query": "In which town does the story of It take place?",
+      "expected_answer": "Події відбуваються в місті Деррі.",
+      "answer": "Зона Бродів. \n\nНадійна інформація зібрана із фрагментах сценарію [5] Джерело: 615_It ID чанка: 8540ccf65a221f63",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "287_Cold_Mountain",
+        "212_Book_of_Eli,_The",
+        "589_In_the_Bedroom",
+        "820_Nightmare_Before_Christmas,_The",
+        "615_It"
+      ],
+      "cited_chunk_ids": [
+        "8540ccf65a221f63"
+      ]
+    },
+    {
+      "id": "gold_005",
+      "type": "simple",
+      "query": "Who carries a suitcase filled with magical creatures?",
+      "expected_answer": "Валізу з магічними істотами носить Ньют Скамандер.",
+      "answer": "Кто носить сумку з магічними створами? \n\nВ excerpt [5] Джерело: 544_Hellboy_2_The_Golden_Army ID чанка: e3b86eadef5da719.",
+      "retrieval_hit_at_5": false,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "908_Puss_in_Boots_The_Last_Wish",
+        "843_Onward",
+        "389_Elephant_Man,_The",
+        "401_Even_Cowgirls_Get_the_Blues",
+        "544_Hellboy_2_The_Golden_Army"
+      ],
+      "cited_chunk_ids": [
+        "e3b86eadef5da719"
+      ]
+    },
+    {
+      "id": "gold_006",
+      "type": "simple",
+      "query": "In which city does Newt Scamander arrive?",
+      "expected_answer": "Ньют Скамандер прибуває до Нью-Йорка.",
+      "answer": "Новий Армійський міст в Бутані.\n\n[1] Джерело: 415_Fantastic_Beasts_The_Secrets_of_Dumbledore",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "415_Fantastic_Beasts_The_Secrets_of_Dumbledore",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "415_Fantastic_Beasts_The_Secrets_of_Dumbledore",
+        "004_Fantastic_Beasts_The_Crimes_of_Grindelwald1010Legend1010",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them"
+      ],
+      "cited_chunk_ids": [
+        "833005f65531127c"
+      ]
+    },
+    {
+      "id": "gold_007",
+      "type": "simple",
+      "query": "What is the name of the No-Maj who befriends Newt?",
+      "expected_answer": "Но-май, який знайомиться з Ньютом, — Джейкоб Ковальський.",
+      "answer": "Тіна.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "062_Aliens",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_008",
+      "type": "simple",
+      "query": "Who is Tina Goldstein’s sister?",
+      "expected_answer": "Сестра Тіни Ґолдштейн — Квіні Ґолдштейн.",
+      "answer": "Я відповідаю лише на запитання про фільми.\n\nВ інтерв'ю з журналом «Magical Times» Jacob Kowalski розповів, що його сестра Квінея (Queenie) однажде привезла до нього двох чоловік. One of them was Newt Scamander.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "004_Fantastic_Beasts_The_Crimes_of_Grindelwald1010Legend1010"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_009",
+      "type": "simple",
+      "query": "What is the name of the pirate captain played by Johnny Depp?",
+      "expected_answer": "Це капітан Джек Горобець.",
+      "answer": "Капітан Піратів Карібського моря — Едвард Барбоса. \n\nВикористовувалися фрагменти з наступних сценаріїв:\n[5] Джерело: 876_Pirates_of_the_Caribbean\nID чanka: 3bf5917f5ce32335\nТекст:\n... Нorrington raises his hand ... twirls a key on his finger. NORRINGTON (CONT'D) A day's head start. That's all he gets.\n\n [1]",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "935_Ricky_Stanicky",
+        "474_Gangs_of_New_York",
+        "935_Ricky_Stanicky",
+        "876_Pirates_of_the_Caribbean",
+        "876_Pirates_of_the_Caribbean"
+      ],
+      "cited_chunk_ids": [
+        "a5752e232bfb997f",
+        "3bf5917f5ce32335"
+      ]
+    },
+    {
+      "id": "gold_010",
+      "type": "simple",
+      "query": "Who is the blacksmith in love with Elizabeth Swann?",
+      "expected_answer": "У Елізабет Свонн закоханий коваль Вілл Тернер.",
+      "answer": "Немає жодного фрагмента сценарію, який вказував би, що Містер Браун виявився людиною, whom кохав Елізабет Сванн.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "876_Pirates_of_the_Caribbean",
+        "876_Pirates_of_the_Caribbean",
+        "876_Pirates_of_the_Caribbean",
+        "876_Pirates_of_the_Caribbean",
+        "876_Pirates_of_the_Caribbean"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_011",
+      "type": "simple",
+      "query": "What is the name of the ship Jack Sparrow wants to reclaim?",
+      "expected_answer": "Джек Горобець прагне повернути корабель «Чорна перлина».",
+      "answer": "Блакитна Піратка. \n\n[1] Джерело: 877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+      "retrieval_hit_at_5": false,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest"
+      ],
+      "cited_chunk_ids": [
+        "1569e53ea65f8161"
+      ]
+    },
+    {
+      "id": "gold_012",
+      "type": "simple",
+      "query": "Who commands the cursed crew of the Black Pearl?",
+      "expected_answer": "Проклятою командою «Чорної перлини» командує капітан Барбосса.",
+      "answer": "Капітан кursed crew of the Black Pearl — Джек Спарров. \n\n[1]\n\nДжерело: 877_Pirates_of_the_Caribbean_Dead_Man's_Chest\nID чanka: 93c6b758e914c643\nТекст:\n... JACK SPARROW I'll handle this, mate.\n\n[2]",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "876_Pirates_of_the_Caribbean",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest"
+      ],
+      "cited_chunk_ids": [
+        "93c6b758e914c643",
+        "d5f22e14bb52de81"
+      ]
+    },
+    {
+      "id": "gold_013",
+      "type": "simple",
+      "query": "What kind of creature is Shrek?",
+      "expected_answer": "Шрек — огр.",
+      "answer": "Шрек - це острогонний гігант.\n\n[1] Джерело: 1000_Shrek\nID чanka: b1c18e5ecd058819\nТекст:\nI like you. What's your name? SHREK Uh, Shrek. DONKEY Shrek? Well, you know what I like about you, Shrek? You got that kind of I-don't-care-what-nobody-thinks-of-me thing. I like that. I respect that, Shrek. You all right. (They come over a hill and you can see Shrek's cottage.) Whoa! Look at that. Who'd want to live in place like that?\n\n[2] Джерело: 1000_Shrek\nID чanka: d0bc9169f79f0dea\nТекст:\nSHREK Quest? I'm already in a quest, a quest to get my swamp back.\n\nШрек",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek"
+      ],
+      "cited_chunk_ids": [
+        "b1c18e5ecd058819",
+        "d0bc9169f79f0dea"
+      ]
+    },
+    {
+      "id": "gold_014",
+      "type": "simple",
+      "query": "Who becomes Shrek’s talkative traveling companion?",
+      "expected_answer": "Супутником Шрека стає балакучий Осел.",
+      "answer": "ДонKEY.\n\n[1] Джерело: 1000_Shrek ID чанка: b1c18e5ecd058819",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek"
+      ],
+      "cited_chunk_ids": [
+        "b1c18e5ecd058819"
+      ]
+    },
+    {
+      "id": "gold_015",
+      "type": "simple",
+      "query": "Which princess does Shrek rescue?",
+      "expected_answer": "Шрек рятує принцесу Фіону.",
+      "answer": "Фіоні.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_016",
+      "type": "simple",
+      "query": "Who sends Shrek to rescue Princess Fiona?",
+      "expected_answer": "Шрека відправляє рятувати Фіону лорд Фаркуад.",
+      "answer": "Впервочас я відповідаю лише на запитання про фільми.\n\nЗнаєте хто enviarив Шрека для визволення принцеси Фіони? Візуальній інформації немає жодного вказування про те, що він був відправлений зазначеним пряторем.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_017",
+      "type": "simple",
+      "query": "How do the Pevensie children enter Narnia?",
+      "expected_answer": "Діти Певенсі потрапляють до Нарнії через чарівну шафу.",
+      "answer": "Луці і Пітеру вдалось потрапити до Нернії через шкаф. \n\n[1] Джерело: 273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe\n\nID чанка: 4c2656c0c03c5503",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe"
+      ],
+      "cited_chunk_ids": [
+        "4c2656c0c03c5503"
+      ]
+    },
+    {
+      "id": "gold_018",
+      "type": "simple",
+      "query": "Who is the lion that helps the Pevensie children?",
+      "expected_answer": "Дітям Певенсі допомагає лев Аслан.",
+      "answer": "Лев, який допомагає діти Певенсі, — це Тумнус.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "484_Ghost_and_the_Darkness,_The",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_019",
+      "type": "simple",
+      "query": "Which Pevensie sibling first meets Mr. Tumnus?",
+      "expected_answer": "Першою містера Тумнуса зустрічає Люсі Певенсі.",
+      "answer": "Луція Певенсі.\n\n[1] Джерело: 273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe\nID чанка: 4c2656c0c03c5503",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe"
+      ],
+      "cited_chunk_ids": [
+        "4c2656c0c03c5503"
+      ]
+    },
+    {
+      "id": "gold_020",
+      "type": "simple",
+      "query": "Who rules Narnia under an endless winter?",
+      "expected_answer": "Нарнією править Біла Відьма.",
+      "answer": "Король Нарнії під час безсмертного zimового періодуправляє за допомогою своєї імператорської влади.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_021",
+      "type": "simple",
+      "query": "Who is the main villain trying to conquer Earth in The Avengers (2012)?",
+      "expected_answer": "Головним антагоністом є Локі.",
+      "answer": "Локі.\n\n[1] Джерело: 129_Avengers,_The_(2012)\n\nНадано інформацію з сценарію фільму \"Титани\" (2012) за участю Локія.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "129_Avengers,_The_(2012)",
+        "129_Avengers,_The_(2012)",
+        "129_Avengers,_The_(2012)",
+        "130_Avengers_Endgame",
+        "129_Avengers,_The_(2012)"
+      ],
+      "cited_chunk_ids": [
+        "9fd4d6d53c2e2c09"
+      ]
+    },
+    {
+      "id": "gold_022",
+      "type": "simple",
+      "query": "What is the name of Thor’s brother?",
+      "expected_answer": "Брата Тора звати Локі.",
+      "answer": "Локі.\n\n[1] Джерело: 129_Avengers,_The_(2012)\nID чanka: c196e5d51170682d.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "130_Avengers_Endgame",
+        "129_Avengers,_The_(2012)",
+        "129_Avengers,_The_(2012)",
+        "129_Avengers,_The_(2012)",
+        "129_Avengers,_The_(2012)"
+      ],
+      "cited_chunk_ids": [
+        "fa6dda0dac73b217"
+      ]
+    },
+    {
+      "id": "gold_023",
+      "type": "simple",
+      "query": "Who leads S.H.I.E.L.D. in The Avengers?",
+      "expected_answer": "Щ.И.Т. очолює Нік Ф’юрі.",
+      "answer": "Надійний керівник С.H.I.EЛД - Нік Фурі.\n\nВідомо з фрагменту сценарію [4], де він говорить з членами Вісниці безпеки:\n\n\"... I didn't make it. I just didn't argue with the god that did.\"\n\nТакож в фрагменті сценарію [2] згадується, коли ТONY ШIELD каже SCOTT Лангу:\n\"Actually, Hydra. But we didn't know that yet.\"\nТепер відомий як Нік Фурі.\n\nПоведено на основі фрагментах сценаріїв [1], [2], [3], [4].",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "129_Avengers,_The_(2012)",
+        "130_Avengers_Endgame",
+        "499_Gone_Baby_Gone",
+        "129_Avengers,_The_(2012)",
+        "614_Island,_The"
+      ],
+      "cited_chunk_ids": [
+        "9fd4d6d53c2e2c09",
+        "495c17edda77aea1",
+        "6e9808f4bd3cebbb",
+        "1f9f45abc4320957"
+      ]
+    },
+    {
+      "id": "gold_024",
+      "type": "simple",
+      "query": "What is the name of Elsa’s younger sister?",
+      "expected_answer": "Молодшу сестру Ельзи звати Анна.",
+      "answer": "Неможливо визначити ім'я молодшого брата Ельси за наявністю тільки фрагменту сценарію з цитатами з фільму \"Jojo Rabbit\".",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "637_Jojo_Rabbit",
+        "637_Jojo_Rabbit",
+        "637_Jojo_Rabbit",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_025",
+      "type": "simple",
+      "query": "What is the name of the snowman who befriends Anna?",
+      "expected_answer": "Сніговика звати Олаф.",
+      "answer": "Олáf (Olaf). \n\n[1] Джерело: 462_Frozen_(Disney)\nID чанка: df9c06b646840d48\nТекст:\nHe and the Queen look at each other with alarmed sadness. -INT. LIBRARY -- DAY. Anna, now a teenager, slides past Elsa's room without stopping.\n\n[3] Джерело: 462_Frozen_(Disney)\nID чanka: eeef38c42e8745e9\nТекст:\nAnna runs into Olaf in the library. OLAF (CONT'D) How `bout yellow--no, not yellow. Yellow and snow? Brrrr...no go. He stops between Kristoff and Anna. They look down at him. How did he get there?\n\n[4] Джерело: 462_Frozen_(Disney)\nID чанка: 2a9467977fe23d86\nТекст:\nOlaf wanders",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)"
+      ],
+      "cited_chunk_ids": [
+        "722ca75f61105b12",
+        "3f1c28194ec3f43c",
+        "2a9467977fe23d86"
+      ]
+    },
+    {
+      "id": "gold_026",
+      "type": "complex",
+      "query": "How are Georgie’s disappearance and the Losers’ Club investigation connected?",
+      "expected_answer": "Зникнення Джорджі стає однією з причин, через які Білл та його друзі досліджують небезпеку, пов’язану з Пеннівайзом.",
+      "answer": "Георгієм зникли безсліду після того, як він загинув в струмку. Всі інші діти Деррі почали розслідуватися за його disapпейрансом та шукати причину його смерті. Згодом вони стали називати себе \"Лозерами-клубом\" (Losers' Club) та розпочали розслідування інших випадків гонітобута у місті Деррі.\n\nВідомо, що Георґій був жертвою Пеннвізьї, монстера, який живе в каналі біля міста Деррі. Пеннвізі зникли без сліду після того, як він загинув в струмку, але пізніше було встановлено, що він був справжнім іменем Пеннвізьї - монстра, якого вони називали «Пеннвіз",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "615_It",
+        "615_It",
+        "469_Game_6",
+        "615_It",
+        "615_It"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_027",
+      "type": "complex",
+      "query": "How do Newt and Jacob become involved in recovering the escaped creatures?",
+      "expected_answer": "Після знайомства Ньюта з Джейкобом частина магічних істот опиняється на волі, і вони разом намагаються їх повернути.",
+      "answer": "Нова людина зустрічає Джакоба в лісах, де вони знаходяться в alien terrain. NEWT каже: \"See, they're currently in alien terrain, surrounded by millions of the most vicious creatures on the planet.\" Пізніше NEWT каже: \"I need to get going, find everyone who's escaped before they get hurt.\"\n\nВ результаті Newt і Jacob стаємисією для recovery escape creature.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them",
+        "414_Fantastic_Beasts_and_Where_to_Find_Them"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_028",
+      "type": "complex",
+      "query": "How are Will Turner, Elizabeth Swann, and Jack Sparrow connected to the conflict over the Black Pearl?",
+      "expected_answer": "Вілл прагне врятувати Елізабет, Джек хоче повернути «Чорну перлину», а їхні цілі перетинаються в протистоянні з Барбоссою.",
+      "answer": "Виконав запит: як Are you familiar with that ship? The Black Pearl?\nОтвет: Такі. Втім він не знає точно, де вона зароблюється.\n\n[2] Джерело: 876_Pirates_of_the_Caribbean\nID чanka: e3b75ab6a08a747b\nТекст:\n...an island that cannot be found -- except by those who know where to look.\n\n[5] Джерело: 877_Pirates_of_the_Caribbean_Dead_Man's_Chest\nID чанка: 006ea01280c93349\nТекст:\nJack Sparrow. [camera shows Will hitching a ride on the front of the Flying Dutchman, between the jaw formations]\n\nВиконав запит: як Jack Sparrow?\nОтвет: Такий. Втім він не знає точно, де вона зароблюється.\n\nТаким чином",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "876_Pirates_of_the_Caribbean",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "877_Pirates_of_the_Caribbean_Dead_Man's_Chest",
+        "876_Pirates_of_the_Caribbean"
+      ],
+      "cited_chunk_ids": [
+        "e3b75ab6a08a747b",
+        "77fae04b3a5064c6"
+      ]
+    },
+    {
+      "id": "gold_029",
+      "type": "complex",
+      "query": "Why does Shrek agree to rescue Fiona, and how does his attitude toward her change?",
+      "expected_answer": "Шрек погоджується врятувати Фіону, щоб повернути собі болото, але під час подорожі поступово закохується в неї.",
+      "answer": "Шрек погодився врятувати Фіону тому, що вона була зажиттєю для Лорда FARQUAADа. Вперше він стався до неї з увагою та дбаятися їй, коли вони були разом у лісі. Пізніше Шrek почав бачити Фіону як свою справжню кохану та намагався захистити її від інших загроз.\n\n[1] Джерело: 1000_Shrek\nID чanka: 1101d5f1ea7cfd3b\n\nВодночас, його налаштованість до Фіони змінюється за рахунок того, що вона починає бачити його не лише як свого визначального rescue-човена, а й як людини з своїми характеристиками та індивідуальністю.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek",
+        "1000_Shrek"
+      ],
+      "cited_chunk_ids": [
+        "1101d5f1ea7cfd3b"
+      ]
+    },
+    {
+      "id": "gold_030",
+      "type": "complex",
+      "query": "How do Edmund’s actions and Aslan’s sacrifice affect the struggle against the White Witch?",
+      "expected_answer": "Едмунд потрапляє під вплив Білої Відьми, а Аслан жертвує собою заради його порятунку, що змінює перебіг боротьби.",
+      "answer": "Недостатньо інформації у знайдених фрагментах.\n\n(Translation: There is not enough information in the provided excerpts.)\n\nПопробуйте задати питання з іншого боку.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe",
+        "273_Chronicles_of_Narnia_The_Lion,_the_Witch_and_the_Wardrobe"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_031",
+      "type": "complex",
+      "query": "How does Elsa’s fear of her powers affect Anna, and what eventually breaks the spell?",
+      "expected_answer": "Страх Ельзи перед власними силами віддаляє її від Анни та призводить до небезпечного заморожування; зрештою їх рятує прояв справжньої сестринської любові.",
+      "answer": "Внаслідок Елсиїйної паніки Анна стає замінною для неї матерю. Пізніше анна дізнавається, що її сестра не з'являється через кілька років після того, як вона покинула Арендель. \n\nПоступивши за свою сестру, Ганс намагався визначитися в королівстві, але його спроби були марнім. Нарешті, він став заклятним ворогом Елси та загрожував їй життям.\n\nАле, нарешті, Ганса зупинила Анна, яка дізналася про справжню причину гнева Елси: те, що Ганс мріяв од неї кохання, а не корона.",
+      "retrieval_hit_at_5": true,
+      "citation_valid": false,
+      "correct_refusal": null,
+      "retrieved_document_ids": [
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)",
+        "462_Frozen_(Disney)"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_032",
+      "type": "negative",
+      "query": "What exact score does Katniss receive during her private evaluation in The Hunger Games screenplay?",
+      "expected_answer": "Недостатньо інформації у знайдених фрагментах.",
+      "answer": "Я відповідаю лише на запитання про фільми.\n\nВказано в сценарії [2], що Кетніс (Katniss) отримала 74.",
+      "retrieval_hit_at_5": null,
+      "citation_valid": true,
+      "correct_refusal": false,
+      "retrieved_document_ids": [
+        "560_Hitchcock",
+        "584_I'll_Do_Anything",
+        "307_Crazylove",
+        "538_Heavenly_Creatures",
+        "263_Changeling"
+      ],
+      "cited_chunk_ids": [
+        "46c9eca04d951911"
+      ]
+    },
+    {
+      "id": "gold_033",
+      "type": "negative",
+      "query": "What faction does Tris choose during the Choosing Ceremony in the Divergent screenplay?",
+      "expected_answer": "Недостатньо інформації у знайдених фрагментах.",
+      "answer": "Я відповідаю лише на запитання про фільми.\n\nЗнаходясь в сценах з дільною \"Вибір\", я не можу точно сказати, яку faction Tris вибере. however,  during the Choosing Ceremony in Divergent screenplay , Tris chooses Dauntless .",
+      "retrieval_hit_at_5": null,
+      "citation_valid": false,
+      "correct_refusal": false,
+      "retrieved_document_ids": [
+        "913_Rachel_Getting_Married",
+        "812_Next",
+        "812_Next",
+        "070_Amadeus",
+        "812_Next"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_034",
+      "type": "negative",
+      "query": "What does Harry see in the Mirror of Erised in the Harry Potter and the Philosopher’s Stone screenplay?",
+      "expected_answer": "Недостатньо інформації у знайдених фрагментах.",
+      "answer": "Я відповідаю лише на запитання про фільми.\n\nВ сцені знято в кадр ТРЕНΧа, який дивиться на своєй дзеркальній поверхню. В його руках лежить маленький скляп, а на нього кидає хARRY. ТRENЧ стирає скляп, і на місці нього з'являється МIRROR OF ERISED.",
+      "retrieval_hit_at_5": null,
+      "citation_valid": false,
+      "correct_refusal": false,
+      "retrieved_document_ids": [
+        "442_Four_Feathers",
+        "707_Lord_of_Illusions",
+        "707_Lord_of_Illusions",
+        "707_Lord_of_Illusions",
+        "065_All_of_Us_Strangers"
+      ],
+      "cited_chunk_ids": []
+    },
+    {
+      "id": "gold_035",
+      "type": "negative",
+      "query": "What is the first rule of the Glade in The Maze Runner screenplay?",
+      "expected_answer": "Недостатньо інформації у знайдених фрагментах.",
+      "answer": "Немає даних в зазначених фрагментах сценаріїв, які стосувалися правила Гляди.",
+      "retrieval_hit_at_5": null,
+      "citation_valid": false,
+      "correct_refusal": false,
+      "retrieved_document_ids": [
+        "406_Excalibur",
+        "703_Logan's_Run",
+        "055_Aladdin",
+        "703_Logan's_Run",
+        "332_Day_of_the_Dead"
+      ],
+      "cited_chunk_ids": []
+    }
+  ]
+}
